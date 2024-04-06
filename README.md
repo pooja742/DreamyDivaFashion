@@ -10,8 +10,4 @@ DreamyDivaFashion is a platform dedicated to all things fashion. From trendy blo
 - **Fixed Position**: The menu remains fixed at the top of the page for easy access, ensuring seamless navigation across all pages.
 - **Easy Integration**: Simply include the provided HTML, CSS, and JavaScript files in your project to incorporate the navigation menu effortlessly.
 
-## Usage
-1. Clone or download the repository.
-2. Include the necessary HTML, CSS, and JavaScript files in your project.
-3. Customize the menu styles and functionality according to your preferences.
-4. Deploy your website and enjoy the enhanced navigation experience!
+Thank You !
