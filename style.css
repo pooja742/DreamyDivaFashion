@@ -5,6 +5,7 @@
 html{
     scroll-behavior: smooth;
 }
+
 .logo{
     width: 20%;
     display: flex;
@@ -16,27 +17,22 @@ html{
     border: 3px silver;
     border-radius: 50px;
 }
-#navlist{
-    overflow: hidden;
-    background-color: aqua;
-}
-.sticky { 
-        position: fixed; 
-        top: 0; 
-        width: 100%; 
-    } 
+
 .navbar{
     display: flex;
-    position: fixed;
+    position:fixed;
     width: 100%;
     height: 50px;
-    background: rgba(0, 0, 0, 0.7);
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transition: background-color 0.4s ease-in-out;
+    top: 0;
+    background-attachment: fixed;
 }
+
 .navlist{
     width: 70%;
-    background-color:chocolate;
+    transition: background-color 0.4s ease-in-out;
+    top: 0;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
    
@@ -45,11 +41,15 @@ html{
     list-style: none;
     padding: 26px 30px;
 }
+.navlist.colorChange {
+    background-color: #000;
+}
 .navlist li a{
     text-decoration: none;
     color:white;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: color 0.4s ease-in-out;
 }
 .navlist li a:hover{
     text-decoration: none;
@@ -58,7 +58,9 @@ html{
 }
 .rightNav{
     width: 30%;
-    background-color: chocolate;
+    transition: background-color 0.4s ease-in-out;
+    top: 0;
+    background-attachment: fixed;
     text-align: right;
     padding: 0 23px;
     position: sticky;
@@ -71,11 +73,14 @@ html{
     cursor: pointer;
     position: sticky;
 }
+
+
 .background{
-    background: rgba(0, 0, 0, 0.7) url('bg.jpg');
+    background: rgba(0, 0, 0, 0.7) url('Media\bg.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
+
 .section{
     width: 100%;
     
