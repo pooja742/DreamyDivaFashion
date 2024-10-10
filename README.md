@@ -1,4 +1,4 @@
-# PRODIGY_WD_01
+# WEB_DEVELOPMENT PROJECT USING HTML, CSS, JS
 
 # DreamyDivaFashion Navigation Menu
 Welcome to the DreamyDivaFashion Navigation Menu repository! This interactive navigation menu adds flair and functionality to your website, ensuring a smooth and stylish user experience.
