@@ -1,10 +1,10 @@
-const burger = document.querySelector('.burger');
-const navbar = document.querySelector('.navbar');
-const navlist = document.querySelector('.navlist');
-const rightNav = document.querySelector('.rightNav');
+burger = document.querySelector('.burger')
+navbar = document.querySelector('.navbar')
+navlist = document.querySelector('.navlist')
+rightNav = document.querySelector('.rightNav')
 
-burger.addEventListener('click', () => {
+burger.addEventListener('click', ()=> {
     rightNav.classList.toggle('v-class-resp');
     navlist.classList.toggle('v-class-resp');
     navbar.classList.toggle('h-nav-resp');
-});
+})
